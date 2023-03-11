@@ -1,2 +1,3 @@
-# Ignore sdf
+# Ignore sdf and urdf
 *.sdf
+*.urdf

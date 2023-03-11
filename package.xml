@@ -14,5 +14,10 @@
   <author email="doron.hirshberg@intel.com">Doron Hirshberg</author>
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>xacro</exec_depend>
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/urdf"/>
+  </export>
 
 </package>
