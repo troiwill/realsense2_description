@@ -50,7 +50,7 @@ source devel/setup.bash
 ### Converting a .xacro file to SDF
 
 If you need to attach one of these cameras to an SDF file, you may need to convert the camera `*.xacro` file to `*.sdf`.
-Here are the instructions to produce an SDF.
+Here are sample instructions to produce an SDF. Simply replace `test_d435_camera` with the camera of interest.
 ```
 xacro test_d435_camera.urdf.xacro > test_d435_camera.urdf
 gz sdf -p test_d435_camera.urdf > test_d435_camera.sdf
